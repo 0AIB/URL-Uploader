@@ -1,7 +1,7 @@
 # This is code to switch which rclone config section to use. This setting affects the entire bot(And at this time, the cloneHelper only support gdrive, so you should only choose to use gdrive config section)
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) xiaoqi-beta | gautamajay52
+# (c) xiaoqi-beta | gautamajay52 | 0AIB
 
 import logging
 import os
@@ -10,7 +10,7 @@ from configparser import ConfigParser
 
 import pyrogram.types as pyrogram
 from pyrogram.types import CallbackQuery
-from tobrot import LOGGER, OWNER_ID
+from Uploader import LOGGER, OWNER_ID
 
 
 async def rclone_command_f(client, message):
