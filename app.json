@@ -1,13 +1,13 @@
 {
   "name": "Telegram Torrent Leecher",
-  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @MaxxBots",
-  "logo": "https://telegra.ph/file/101a7d52e02772152c6e3.jpg",
+  "description": "A Telegram Uploader Bot. by: @DFF_UPDATES",
+  "logo": "https://telegra.ph/file/8726f152564cef01700fb.jpg",
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/MaxxRider/Leech-Pro",
-  "success_url": "https://t.me/MaxxBotChat",
-  "website": "https://github.com/MaxxRider/Leech-Pro",
+  "repository": "https://github.com/0AIB/URL-Uploader",
+  "success_url": "https://t.me/LxChatGroup",
+  "website": "https://github.com/0AIB/URL-Uploader",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
