@@ -7,7 +7,7 @@ import logging
 import os
 
 import aiohttp
-from tobrot import REAL_DEBRID_KEY, LOGGER
+from Uploader import REAL_DEBRID_KEY, LOGGER
 
 
 BASE_URL = "https://api.real-debrid.com/rest/1.0"
