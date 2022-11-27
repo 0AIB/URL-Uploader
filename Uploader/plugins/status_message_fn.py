@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52
+# (c) Shrimadhav U K | gautamajay52 | 0AIB
 
 import asyncio
 import io
@@ -14,9 +14,9 @@ import traceback
 import psutil
 import math
 from pyrogram.errors import FloodWait, MessageIdInvalid, MessageNotModified
-from tobrot.helper_funcs.admin_check import AdminCheck
+from Uploader.plugins.helper.admin_check import AdminCheck
 
-from tobrot import (
+from Uploader import (
     AUTH_CHANNEL,
     BOT_START_TIME,
     LOGGER,
