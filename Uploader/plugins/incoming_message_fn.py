@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52 | MaxxRider
+# (c) Shrimadhav U K | gautamajay52 | MaxxRider  | 0AIB
 
 import asyncio
 import logging
@@ -9,7 +9,7 @@ import time
 from pathlib import Path
 import aria2p
 import requests
-from tobrot import (
+from Uploader import (
     DOWNLOAD_LOCATION,
     GLEECH_COMMAND,
     GLEECH_UNZIP_COMMAND,
@@ -22,18 +22,18 @@ from tobrot import (
     GPYTDL_COMMAND,
     PYTDL_COMMAND,
 )
-from tobrot.helper_funcs.admin_check import AdminCheck
-from tobrot.helper_funcs.cloneHelper import CloneHelper
-from tobrot.helper_funcs.download import download_tg
-from tobrot.helper_funcs.download_aria_p_n import (
+from Uploader.plugins.helper.admin_check import AdminCheck
+from Uploader.plugins.helper.cloneHelper import CloneHelper
+from Uploader.plugins.helper.download import download_tg
+from Uploader.plugins.helper.download_aria_p_n import (
     aria_start,
     call_apropriate_function,
 )
-from tobrot.helper_funcs.download_from_link import request_download
-from tobrot.helper_funcs.extract_link_from_message import extract_link
-from tobrot.helper_funcs.upload_to_tg import upload_to_tg
-from tobrot.helper_funcs.youtube_dl_extractor import extract_youtube_dl_formats
-from tobrot.helper_funcs.ytplaylist import yt_playlist_downg
+from Uploader.plugins.helper.download_from_link import request_download
+from Uploader.plugins.helper.extract_link_from_message import extract_link
+from Uploader.plugins.helper.upload_to_tg import upload_to_tg
+from Uploader.plugins.ytdl.youtube_dl_extractor import extract_youtube_dl_formats
+from Uploader.plugins.ytdl.ytplaylist import yt_playlist_downg
 
 
 async def incoming_purge_message_f(client, message):
