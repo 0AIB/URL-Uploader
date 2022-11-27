@@ -1,7 +1,7 @@
 import logging
 
 import pyrogram
-from tobrot import *
+from Uploader import *
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -15,7 +15,7 @@ async def new_join_f(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('Channel', url='https://t.me/MaxxBots')
+                        InlineKeyboardButton('Channel', url='https://t.me/DFF_UPDATES')
                     ]
                 ]
                )
