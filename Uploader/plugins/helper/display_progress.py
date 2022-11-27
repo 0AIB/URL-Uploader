@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52 | MaxxRider
+# (c) Shrimadhav U K | gautamajay52 | MaxxRider | 0AIB
 
 import logging
 import math
@@ -8,7 +8,7 @@ import os
 import time
 
 from pyrogram.errors.exceptions import FloodWait
-from tobrot import (
+from Uploader import (
     EDIT_SLEEP_TIME_OUT,
     FINISHED_PROGRESS_STR,
     UN_FINISHED_PROGRESS_STR,
