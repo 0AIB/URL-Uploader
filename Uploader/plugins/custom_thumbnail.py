@@ -6,7 +6,7 @@ import os
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from PIL import Image
-from tobrot import DOWNLOAD_LOCATION
+from Uploader import DOWNLOAD_LOCATION
 
 
 async def save_thumb_nail(client, message):
