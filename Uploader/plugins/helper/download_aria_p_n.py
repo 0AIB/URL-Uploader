@@ -26,7 +26,7 @@ from Uploader import (
     LOGGER,
     MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START,
 )
-from Uploader.plugins..helper.create_compressed_archive import (
+from Uploader.plugins.helper.create_compressed_archive import (
     create_archive,
     get_base_name,
     unzip_me,
