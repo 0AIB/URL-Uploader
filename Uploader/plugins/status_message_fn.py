@@ -31,7 +31,7 @@ from Uploader import (
 
 
 # the logging things
-from Uploader.plugins.helper_funcs.display_progress import TimeFormatter, humanbytes
+from Uploader.plugins.helper.display_progress import TimeFormatter, humanbytes
 from Uploader.plugins.helper.download_aria_p_n import (aria_start,
                                                    call_apropriate_function)
 from Uploader.helper.upload_to_tg import upload_to_tg
