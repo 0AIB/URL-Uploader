@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
+# (c) Shrimadhav U K / 0AIB
 
 import logging
 
 import aiohttp
 from pyrogram.types import MessageEntity
-from tobrot import TG_OFFENSIVE_API, LOGGER
+from Uploader import TG_OFFENSIVE_API, LOGGER
 
 
 def extract_url_from_entity(entities: MessageEntity, text: str):
