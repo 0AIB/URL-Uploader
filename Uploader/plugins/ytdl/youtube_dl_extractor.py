@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | MaxxRider
+# (c) Shrimadhav U K | MaxxRider | 0AIB
 
 import asyncio
 import json
@@ -8,8 +8,8 @@ import logging
 import os
 
 import pyrogram.types as pyrogram
-from tobrot import DEF_THUMB_NAIL_VID_S, LOGGER
-from tobrot.helper_funcs.display_progress import humanbytes
+from Uploader import DEF_THUMB_NAIL_VID_S, LOGGER
+from Uploader.plugins.helper.display_progress import humanbytes
 
 
 async def extract_youtube_dl_formats(
