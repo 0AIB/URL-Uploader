@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52
+# (c) Shrimadhav U K | gautamajay52 | 0AIB
 
 import io
 import logging
@@ -12,8 +12,8 @@ from pyrogram import Client, filters, idle
 from pyrogram.raw import functions, types
 from pyrogram.handlers import CallbackQueryHandler, MessageHandler
 
-from tobrot import app
-from tobrot import (
+from Uploader import app
+from Uploader import (
     AUTH_CHANNEL,
     CANCEL_COMMAND_G,
     CLEAR_THUMBNAIL,
@@ -44,19 +44,19 @@ from tobrot import (
     TOGGLE_DOC,
     HELP_COMMAND
 )
-from tobrot.helper_funcs.download import down_load_media_f
-from tobrot.plugins.call_back_button_handler import button
+from Uploader.plugins.helper.download import down_load_media_f
+from Uploader.plugins.call_back_button_handler import button
 # the logging things
-from tobrot.plugins.choose_rclone_config import rclone_command_f
-from tobrot.plugins.custom_thumbnail import clear_thumb_nail, save_thumb_nail
-from tobrot.plugins.incoming_message_fn import (g_clonee, g_yt_playlist,
+from Uploader.plugins.choose_rclone_config import rclone_command_f
+from Uploader.plugins.custom_thumbnail import clear_thumb_nail, save_thumb_nail
+from Uploader.plugins.incoming_message_fn import (g_clonee, g_yt_playlist,
                                                 incoming_message_f,
                                                 incoming_purge_message_f,
                                                 incoming_youtube_dl_f,
                                                 rename_tg_file)
-from tobrot.plugins.new_join_fn import help_message_f, new_join_f
-from tobrot.plugins.rclone_size import check_size_g, g_clearme
-from tobrot.plugins.status_message_fn import (
+from Uploader.plugins.new_join_fn import help_message_f, new_join_f
+from Uploader.plugins.rclone_size import check_size_g, g_clearme
+from Uploader.plugins.status_message_fn import (
     cancel_message_f,
     eval_message_f,
     exec_message_f,
