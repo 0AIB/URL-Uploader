@@ -3,6 +3,7 @@
 # -*- coding: utf-8 -*-
 # (c) gautamajay52
 # (c) MaxxRider
+# (c) 0AIB
 
 import asyncio
 import logging
@@ -12,7 +13,7 @@ import subprocess
 
 import pyrogram.types as pyrogram
 import requests
-from tobrot import (
+from Uploader import (
     DESTINATION_FOLDER,
     DOWNLOAD_LOCATION,
     EDIT_SLEEP_TIME_OUT,
