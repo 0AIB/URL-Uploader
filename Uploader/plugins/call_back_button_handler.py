@@ -110,7 +110,7 @@ async def button(bot, update: CallbackQuery):
                 "requirements.txt",
                 "runtime.txt",
                 "start.sh",
-                "tobrot",
+                "Uploader",
                 "gautam",
                 "Torrentleech-Gdrive.txt",
                 "vendor",
