@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52 | MaxxRider
+# (c) Shrimadhav U K | gautamajay52 | MaxxRider | 0AIB
 
 import asyncio
 import logging
@@ -17,7 +17,7 @@ import math
 import aria2p
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from tobrot import (
+from Uploader import (
     ARIA_TWO_STARTED_PORT,
     AUTH_CHANNEL,
     CUSTOM_FILE_NAME,
@@ -26,17 +26,17 @@ from tobrot import (
     LOGGER,
     MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START,
 )
-from tobrot.helper_funcs.create_compressed_archive import (
+from Uploader.plugins..helper.create_compressed_archive import (
     create_archive,
     get_base_name,
     unzip_me,
 )
-from tobrot.helper_funcs.extract_link_from_message import extract_link
-from tobrot.helper_funcs.upload_to_tg import upload_to_gdrive, upload_to_tg
-from tobrot.helper_funcs.download import download_tg
+from Uploader.plugins.helper.extract_link_from_message import extract_link
+from Uploader.plugins.helper.upload_to_tg import upload_to_gdrive, upload_to_tg
+from Uploader.plugins.helper.download import download_tg
 
-from tobrot.helper_funcs.direct_link_generator import direct_link_generator
-from tobrot.helper_funcs.exceptions import DirectDownloadLinkException
+from Uploader.plugins.helper.direct_link_generator import direct_link_generator
+from Uploader.plugins.helper.exceptions import DirectDownloadLinkException
 
 sys.setrecursionlimit(10 ** 4)
 
