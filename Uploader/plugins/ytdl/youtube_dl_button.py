@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamjay52 | MaxxRider
+# (c) Shrimadhav U K | gautamjay52 | MaxxRider | 0AIB 
 
 import asyncio
 import json
@@ -13,8 +13,8 @@ import time
 from datetime import datetime
 
 import pyrogram
-from tobrot import AUTH_CHANNEL, DOWNLOAD_LOCATION, LOGGER, GYTDL_COMMAND
-from tobrot.helper_funcs.upload_to_tg import upload_to_gdrive, upload_to_tg
+from Uploader import AUTH_CHANNEL, DOWNLOAD_LOCATION, LOGGER, GYTDL_COMMAND
+from Uploader.plugins.helper.upload_to_tg import upload_to_gdrive, upload_to_tg
 
 
 async def youtube_dl_call_back(bot, update):
