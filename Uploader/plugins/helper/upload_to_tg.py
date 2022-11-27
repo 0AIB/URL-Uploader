@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52
+# (c) Shrimadhav U K | gautamajay52 | 0AIB
 
 import asyncio
 import logging
@@ -22,7 +22,7 @@ from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pyrogram.types import InputMediaAudio, InputMediaDocument, InputMediaVideo
 from requests.utils import requote_uri
-from tobrot import (
+from Uploader import (
     DESTINATION_FOLDER,
     DOWNLOAD_LOCATION,
     EDIT_SLEEP_TIME_OUT,
@@ -34,10 +34,10 @@ from tobrot import (
     gDict,
     user_specific_config,
 )
-from tobrot.helper_funcs.copy_similar_file import copy_file
-from tobrot.helper_funcs.display_progress import humanbytes, Progress
-from tobrot.helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
-from tobrot.helper_funcs.split_large_files import split_large_files
+from Uploader.plugins.helper.copy_similar_file import copy_file
+from Uploader.plugins.helper.display_progress import humanbytes, Progress
+from Uploader.plugins.helper.help_Nekmo_ffmpeg import take_screen_shot
+from Uploader.plugins.helper.split_large_files import split_large_files
 
 # stackoverflow🤐
 def getFolderSize(p):
