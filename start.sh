@@ -20,6 +20,6 @@ fi
 
 
 
-echo "Starting Your Bot... 👾👾"
-python3 -m tobrot
+echo "Starting Your Bot... ✨✨"
+python3 -m Uploader
 
