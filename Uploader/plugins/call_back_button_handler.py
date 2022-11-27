@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52 | MaxxRider
+# (c) Shrimadhav U K | gautamajay52 | MaxxRider | 0AIB
 
 import logging
 import os
 import shutil
 
 from pyrogram.types import CallbackQuery
-from tobrot import AUTH_CHANNEL, MAX_MESSAGE_LENGTH, LOGGER, gDict
-from tobrot.helper_funcs.admin_check import AdminCheck
-from tobrot.helper_funcs.download_aria_p_n import aria_start
-from tobrot.helper_funcs.youtube_dl_button import youtube_dl_call_back
-from tobrot.plugins.choose_rclone_config import rclone_button_callback
-from tobrot.plugins.status_message_fn import cancel_message_f
+from Uploader import AUTH_CHANNEL, MAX_MESSAGE_LENGTH, LOGGER, gDict
+from Uploader.plugins.helper.admin_check import AdminCheck
+from Uploader.plugins.helper.download_aria_p_n import aria_start
+from Uploader.plugins.ytdl.youtube_dl_button import youtube_dl_call_back
+from Uploader.plugins.choose_rclone_config import rclone_button_callback
+from Uploader.plugins.status_message_fn import cancel_message_f
 
 
 async def button(bot, update: CallbackQuery):
