@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from tobrot import AUTH_CHANNEL
+# (c) 0AIB
+
+from Uploader import AUTH_CHANNEL
 
 
 async def AdminCheck(client, chat_id, user_id):
