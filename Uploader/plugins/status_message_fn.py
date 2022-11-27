@@ -31,11 +31,11 @@ from Uploader import (
 
 
 # the logging things
-from tobrot.helper_funcs.display_progress import TimeFormatter, humanbytes
-from tobrot.helper_funcs.download_aria_p_n import (aria_start,
+from Uploader.plugins.helper_funcs.display_progress import TimeFormatter, humanbytes
+from Uploader.plugins.helper.download_aria_p_n import (aria_start,
                                                    call_apropriate_function)
-from tobrot.helper_funcs.upload_to_tg import upload_to_tg
-from tobrot.UserDynaConfig import UserDynaConfig
+from Uploader.helper.upload_to_tg import upload_to_tg
+from Uploader.UserDynaConfig.UserDynaConfig import UserDynaConfig
 
 
 async def upload_as_doc(client, message):
