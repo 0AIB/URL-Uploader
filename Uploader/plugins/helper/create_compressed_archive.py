@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52
+# (c) Shrimadhav U K | gautamajay52 | 0AIB
 
 import asyncio
 import logging
@@ -8,7 +8,7 @@ import os
 import shutil
 import subprocess
 
-from tobrot import LOGGER
+from Uploader import LOGGER
 
 
 async def create_archive(input_directory):
